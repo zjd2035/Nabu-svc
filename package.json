@@ -1,0 +1,30 @@
+{
+  "name": "nabu-svc",
+  "version": "1.0.0",
+  "description": "Rest API for Nabu boards",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjd2035/Nabu-svc.git"
+  },
+  "keywords": [],
+  "author": "Zack Downs <zjd2035@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjd2035/Nabu-svc/issues"
+  },
+  "homepage": "https://github.com/zjd2035/Nabu-svc#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
